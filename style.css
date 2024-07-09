@@ -1,0 +1,275 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+
+.heroSectionWrapper{
+    background: linear-gradient(rgba(0, 0, 0, 0.369),rgba(0, 0, 0, 0.397)),url("https://missmillmag.com/wp-content/uploads/2015/11/IMG_2144-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+
+}
+
+.navbarSection{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.navbarSection{
+    color: rgb(212, 175, 55);
+}
+
+.navv{
+    color: rgb(212, 175, 55);
+
+}
+
+.navv a{
+    color: rgb(212, 175, 55);
+}
+#navbarSupportedContent  li a{
+    color: rgb(212, 175, 55) !important;
+}
+
+.active{
+    color: rgb(212, 175, 55);
+}
+
+.herosection{
+    height: 100vh;
+    width: auto;
+
+    position: relative;
+    top: 12rem;
+    text-align: center;
+    color: rgb(212, 175, 55);
+}
+
+.herosection .btn{
+    margin-top: 40px;
+
+}
+.herosection h1{
+    font-size: 3em;
+    font-weight: bolder;
+    margin: unset;
+
+}
+
+
+
+.serviceSection{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.title{
+    color: rgb(046, 26, 71);
+}
+
+.row .serviceItem{
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 5vh;
+}
+
+.row .serviceItem:hover{
+    background-color: #3b10636f;
+    transform: translateY(-30px);
+    transition: all 1s ease-in-out;
+    border-radius: 20px;
+
+}
+
+/*  */
+
+.aboutSection{
+  
+
+}
+
+.aboutLeftDiv {
+    height: 400px;
+    
+    padding: 0px !important;
+    
+}
+.aboutRightDiv{
+    height: 400px;
+    
+}
+.aboutRightDiv{  
+    text-align: center;
+  
+
+}
+
+
+.aboutLeftDiv img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 12px;
+    
+}
+
+
+
+
+.container{
+    margin-bottom: -20px;
+    position: relative;
+}
+
+h2{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.titleColor{
+    color:#3b10636f;
+
+}
+
+
+.AboutMeWrapper{
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.aboutMe{
+    height: 12rem;
+    background-color: rgb(212, 175, 55);
+    box-shadow: 1px 1px 20px 2px rgb(212, 175, 55);
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3{
+    font-size: large;
+}
+
+
+
+.iconWrapper{
+    transform: translate(300%,0%);
+    height: 50px;
+    width: 50px;
+    background-color:#3b10636f;
+    ;
+    border-radius: 50%;
+    margin: 15px 0px;
+}
+i{
+    color: rgb(212, 175, 55);
+    transform: translate(0,70%);
+    font-size: 20px;
+}
+
+.form{
+    height: auto;
+    width: auto;
+    margin-top: -30px;
+}
+.boxx{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 15px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #3b10636f;
+}
+
+.row{
+    height: 100%;
+    width: 100%;
+}
+
+
+.mapwrapper{
+    padding: 15px 15px;
+
+}
+.iframe{
+    height: 100%;
+    width: 100%;
+    border: 3px solid #ff7700;
+    
+}
+
+/* footer */
+
+.footerh1 span{
+    color: #3b10636f;
+    
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px 3b10636f; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #4d0091; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4d0091; 
+  }
+  
+
+@media(max-width: 991px) {
+
+    .aboutRightDiv{
+        margin-top: 40px !important;
+    }
+
+    .AboutMeWrappe .aboutMe{
+        padding-top: 20px;
+         margin-top: 20px ;
+
+    }
+
+    .AboutMeWrappe.iconWrapper{
+
+        transform: translate(400%,0%);
+    }
+
+    .herosection h1{
+        font-size: 2em;
+        font-weight: bolder;
+        margin: unset;
+    
+    }
+   
+
+   
+
+
+
+}
+
+
+
